@@ -11,7 +11,7 @@
 <a href="#ble">**蓝牙**</a><br>  
 <a href="#loc">**位置**</a><br>  
 <a href="#ibeacon">**iBeacon**</a><br>   
-<a href="#other">**Other**</a><br>  
+<a href="#ot">**Other**</a><br>  
 
 ## <a name="audio">音频</a>
 ### AudioBus
@@ -222,7 +222,7 @@ SQLite 的 Cocoa/Objective-C 封装。
 [Proxitee/iOS-SDK](https://github.com/Proxitee/iOS-SDK)  
 [OWUProximityManager](https://github.com/ohayon/OWUProximityManager)  
 
-## <a name="other"> Other </a>
+## <a name="ot"> Other </a>
 ### Voucher
 方便 tvOS App 通过 iOS设备上相应的程序来认证的库。  
 [Voucher](https://github.com/rsattar/Voucher)
