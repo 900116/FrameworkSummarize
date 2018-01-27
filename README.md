@@ -2,16 +2,22 @@
 
 
 ## **目录**    
-<a href="#audio">**音频**</a><br>   
-<a href="#anim">**动画**</a><br>   
-<a href="#url">**URLCache**</a><br>   
-<a href="#chart">**图表**</a><br>  
-<a href="#coredata">**CoreData**</a><br>  
-<a href="#db">**数据库**</a><br>  
-<a href="#ble">**蓝牙**</a><br>  
-<a href="#loc">**位置**</a><br>  
-<a href="#ibeacon">**iBeacon**</a><br>   
-<a href="#ot">**Other**</a><br>  
+<a href="#audio">**音频**</a><br>
+<a href="#anim">**动画**</a><br>
+<a href="#url">**URLCache**</a><br>
+<a href="#chart">**图表**</a><br>
+<a href="#coredata">**CoreData**</a><br> 
+<a href="#db">**数据库**</a><br>
+<a href="#ble">**蓝牙**</a><br>
+<a href="#loc">**位置**</a><br>
+<a href="#ibeacon">**iBeacon**</a><br>
+<a href="#hud">**HUD**</a><br>
+<a href="#event">**事件总线**</a><br>
+<a href="#json">**JSON**</a><br>
+<a href="#autolayout">**Autolayout**</a><br>
+<a href="#log">**Log**</a><br>
+<a href="#map">**地图**</a><br>
+<a href="#ot">**Other**</a><br>
 
 ## <a name="audio">音频</a>
 ### AudioBus
@@ -222,6 +228,153 @@ SQLite 的 Cocoa/Objective-C 封装。
 [Proxitee/iOS-SDK](https://github.com/Proxitee/iOS-SDK)  
 [OWUProximityManager](https://github.com/ohayon/OWUProximityManager)  
 
+## <a name="hud"> HUD </a>
+### MBProgressHUD
+用于显示一个半透明的HUD。当任务在后台线程结束时可以在上边显示一个指示器和／或者标签。  
+[MBProgressHUD](https://github.com/jdg/MBProgressHUD)  
+
+### SVProgressHUD  
+一个为你的 iOS 应用制作的简洁，轻量级的进度指示HUD。  
+[SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)  
+
+### ProgressHUD
+ProgressHUD 是一个轻量易用的 HUD。  
+[ProgressHUD](https://github.com/relatedcode/ProgressHUD)  
+
+### M13ProgressSuite
+一个包含了很多 iOS上用于显示进度信息工具的套装。  
+[M13ProgressSuite](https://github.com/Marxon13/M13ProgressSuite)   
+
+### PKHUD  
+用 Swift 重新实现了 Apple 的原生 HUD，支持 iOS 8以上  
+[PKHUD](https://github.com/pkluz/PKHUD)  
+
+### Other  
+[JHProgressHUD](https://github.com/harikrishnant1991/JHProgressHUD)  
+[EZLoadingActivity](https://github.com/goktugyil/EZLoadingActivity)    
+
+## <a name="event">事件总线</a>
+### PromiseKit
+iOS 和 OS X 上的 Promises 实现。  
+[PromiseKit](https://github.com/mxcl/PromiseKit)  
+
+### Bolts
+Bolts是一个试图使构建移动应用更简单的一个底层库集合。包括了任务（promises）和应用关联（deep links）。  
+[Bolts](https://github.com/BoltsFramework/Bolts-ObjC)  
+
+### SwiftTask
+Swift 实现的 Promise + progress +pause + cancel + retry。   
+[SwiftTask](https://github.com/ReactKit/SwiftTask)  
+
+### Other  
+[SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus)  
+[caravel](https://github.com/coshx/caravel) 
+
+## <a name="json"> JSON</a>
+### JSONKit
+Objective-C JSON 工具。  
+[JSONKit](https://github.com/johnezang/JSONKit)  
+
+### JSON-Framework
+这个框架用 Objective-C 实现了一个严格的JSON 解释器和生成器。  
+[JSON-Framework](https://github.com/stig/json-framework)  
+
+### Mantle
+面向 Cocoa 和 Cocoa Touch 的模型框架 Model。  
+[Mantle](https://github.com/Mantle/Mantle)  
+
+### KZPropertyMapper
+以最少的代码实现数据映射和验证。  
+[KZPropertyMapper](https://github.com/krzysztofzablocki/PropertyMapper)  
+
+### JSONModel
+神奇的基于 JSON的数据模型化框架。创建了一系列敏捷便利，自动并且智能的模型类。  
+[JSONModel](https://github.com/jsonmodel/jsonmodel)  
+
+### SwiftyJSON
+使用 Swift 处理 JSON 数据的好方法。  
+[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)  
+
+### ObjectMapper
+在模型对象（包括 class 和 struct）和 JSON之间转换的 Swift 框架。  
+[ObjectMapper](https://github.com/Hearst-DD/ObjectMapper) 
+
+### JASON
+性能优秀操作便捷的 JSON 解析。  
+[JASON](https://github.com/delba/JASON)
+
+### Gloss
+一个 Swift 写的 JSON 解析库。  
+[Gloss](https://github.com/hkellaway/Gloss)
+
+### Other
+[TouchJSON](https://github.com/TouchCode/TouchJSON)  
+[Groot](https://github.com/gonzalezreal/Groot)  
+[FastEasyMapping](https://github.com/Yalantis/FastEasyMapping)  
+[OCMapper](https://github.com/aryaxt/OCMapper)  
+[SwiftyJSONAccelerator](https://github.com/insanoid/SwiftyJSONAccelerator)  
+[Cereal](https://github.com/Weebly/Cereal)  
+
+## <a name="autolayout"> Autolayout </a>
+
+### Masonry
+利用简单的，链式的语法发挥出自动布局NSLayoutConstraints 的强大功能。  
+[Masonry](https://github.com/SnapKit/Masonry) 
+
+### SnapKit
+一个 iOS 和 OS X 的 Swift Autolayout领域专用语言（DSL）。  
+[SnapKit](https://github.com/SnapKit/SnapKit) 
+
+### FLKAutoLayout
+让使用代码做约束更加简便的 UIView 类别。  
+[FLKAutoLayout](https://github.com/floriankugler/FLKAutoLayout)  
+
+### PureLayout
+终极的 iOS 和 OS X 上的 AutolayoutAPI，极其简单又异常强大。同时适用于 Objective-C 和 Swift。  
+[PureLayout](https://github.com/PureLayout/PureLayout)  
+
+### Cartography
+一个 Swift 编写的声明式 Auto Layout领域专用语言（DSL）。  
+[Cartography](https://github.com/robb/Cartography)  
+
+### Other  
+[ios_flexboxobjc](https://github.com/alexdrone/flexboxobjc_deprecated)  
+[Facade](https://github.com/mamaral/Facade)  
+[AutoLayoutPlus](https://github.com/ruipfcosta/AutoLayoutPlus)  
+
+## <a name="log"> Log </a>
+
+### CleanroomLogger
+一个基于 Swift 可配置可扩展的日志API，简洁、轻量并且高效。  
+[CleanroomLogger](https://github.com/emaloney/CleanroomLogger)  
+
+### CocoaLumberjack
+一个快捷强大灵活的日志框架，可用于 iOS &Mac。  
+[CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)  
+
+### NSLogger
+一个高性能的日志工具，它可以显示运行在 OS X、iOS 和Android 上客户端应用的踪迹。  
+[NSLogger](https://github.com/fpillet/NSLogger)  
+
+### Other
+[Aardvark](https://github.com/square/Aardvark/)  
+[QorumLogs](https://github.com/goktugyil/QorumLogs)  
+[BlockTypeDescription](https://github.com/conradev/BlockTypeDescription)  
+
+## <a name="map">地图</a>
+
+###Route-me
+iOS 开源地图框架  
+[Route-me](https://github.com/route-me/route-me)  
+
+### Mapbox GL
+一个 iOS 上使用 OpenGL 渲染 Mapbox矢量地图块的框架。  
+[Mapbox GL](https://github.com/mapbox/mapbox-gl-native)  
+
+### Other
+[NAMapKit](https://github.com/neilang/NAMapKit)  
+[CMMapLauncher](https://github.com/citymapper/CMMapLauncher)  
+
 ## <a name="ot"> Other </a>
 ### Voucher
 方便 tvOS App 通过 iOS设备上相应的程序来认证的库。  
@@ -239,3 +392,6 @@ JSPatch 利用 Objective-C 运行时桥接了Objective-C 和 Javascript。你仅
 只需要两行或者很少的几行代码就可以从加速度传感器、陀螺仪和磁力传感器获取数据。现在 CoreMotion让这些变得前所未有的简单。   
 [MotionKit](https://github.com/MHaroonBaig/MotionKit)
 
+### FileKit  
+Swift 实现的简单快捷的文件管理工具。  
+[FileKit](https://github.com/nvzqz/FileKit)  
