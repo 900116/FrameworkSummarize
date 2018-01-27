@@ -31,7 +31,7 @@ App 到 App 的实时音频路由。
 [novocaine](https://github.com/alexbw/novocaine)  
 
 ### QHSpeechSynthesizerQueue  
-一个AVSpeechSynthesizer（iOS文本发音）的队列管理系统。
+一个AVSpeechSynthesizer（iOS文本发音）的队列管理系统。   
 [QHSpeechSynthesizerQueue](https://github.com/quentinhayot/QHSpeechSynthesizerQueue)
 
 ### Other
@@ -81,7 +81,7 @@ iOS 动画集合。很简单，只需要添加流水动画。
 [Awesome Cache](https://github.com/aschuch/AwesomeCache)
 
 ### SDURLCache 
-URLCache 的子类，可以为 iPhone/iPad应用提供的本地磁盘缓存。
+URLCache 的子类，可以为 iPhone/iPad应用提供的本地磁盘缓存。  
 [SDURLCache](https://github.com/steipete/SDURLCache)
 
 ### Other
