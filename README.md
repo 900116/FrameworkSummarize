@@ -17,6 +17,11 @@
 <a href="#autolayout">**Autolayout**</a><br>
 <a href="#log">**Log**</a><br>
 <a href="#map">**地图**</a><br>
+<a href="#pic">**图片**</a><br>
+<a href="#video">**视频**</a><br>
+<a href="#pdf">**PDF**</a><br>
+<a href="#sms">**SMS**</a><br>
+<a href="#net">**网络**</a><br>
 <a href="#ot">**Other**</a><br>
 
 ## <a name="audio">音频</a>
@@ -374,6 +379,165 @@ iOS 开源地图框架
 ### Other
 [NAMapKit](https://github.com/neilang/NAMapKit)  
 [CMMapLauncher](https://github.com/citymapper/CMMapLauncher)  
+
+## <a name="pic">图片</a>
+### GPUImage
+一个基于 GPU 的 iOS 开源的图像和视频处理框架。  
+[GPUImage](https://github.com/BradLarson/GPUImage)  
+
+### QRCodeScanner 
+二维码扫描器。  
+[QRCodeScanner](https://www.appcoda.com/qr-code-ios-programming-tutorial/)  
+
+### SDWebImage
+异步的图像下载器，提供了缓存支持。以 UIImageView类别的方式提供。  
+[SDWebImage](https://github.com/rs/SDWebImage)  
+
+### DFImageManager
+从多种数据源获取图像的现代框架。无需配置，并具有高度的可定制性和扩展性。使用了 NSURLSession。  
+[DFImageManager](https://github.com/kean/DFImageManager)  
+
+### NYTPhotoViewer
+抽屉菜单和照片查看器。  
+[NYTPhotoViewer](https://github.com/NYTimes/NYTPhotoViewer)  
+
+### IDMPhotoBrowser
+图片浏览器／查看器。  
+[IDMPhotoBrowser](https://github.com/thiagoperes/IDMPhotoBrowser)
+
+### JTSImageViewController
+iOS 交互式图片浏览器。  
+[JTSImageViewController](https://github.com/jaredsinclair/JTSImageViewController)
+
+### Concorde
+下载和解码连续的 JPEG 图像。   
+[Concorde](https://github.com/contentful-labs/Concorde/)
+
+### SCRecorder
+类似 Vine的点击拍摄，动画过滤器，慢镜头，片段编辑相机引擎。  
+[SCRecorder](https://github.com/rFlex/SCRecorder)
+
+### HanekeSwift
+一个 Swift 编写的 iOS平台的轻量级通用缓存框架，还有对图像的更多支持。  
+[HanekeSwift](https://github.com/Haneke/HanekeSwift)
+
+### TOCropViewController
+一个可以允许用户修改 UIImage对象的视图控制器。  
+[TOCropViewController](https://github.com/TimOliver/TOCropViewController)
+
+### FastImageCache
+在滚动时快速显示图片的 iOS 框架。  
+[FastImageCache](https://github.com/path/FastImageCache)  
+
+### PINRemoteImage
+一个线程安全、高性能、特性丰富的图像获取器。  
+[PINRemoteImage](https://github.com/pinterest/PINRemoteImage)  
+
+### YLGIFImage
+异步的 GIF 图像解码和图片浏览器。支持 GIF图动画，但只消耗少量的内存。  
+[YLGIFImage](https://github.com/liyong03/YLGIFImage)
+
+### AlamofireImage
+一个为 Alamofire 制作的图像组件库。 
+[AlamofireImage](https://github.com/Alamofire/AlamofireImage) 
+
+### Nuke
+高级的图片管理框架。  
+[Nuke](https://github.com/kean/Nuke)
+
+### FlagKit
+供 app 和 web 页面上使用的漂亮旗标。  
+[FlagKit](https://github.com/madebybowtie/FlagKit)
+
+### YYWebImage
+异步图像加载框架（支持 WebP，APNG，GIF格式）。  
+[YYWebImage](https://github.com/ibireme/YYWebImage)
+
+### Other
+[uiimage-dsp](https://github.com/gdawg/uiimage-dsp)    
+[AsyncImageView](https://github.com/nicklockwood/AsyncImageView)  
+[MapleBacon](https://github.com/JanGorman/MapleBacon)  
+[YXTMotionView](https://github.com/hanton/YXTMotionView)  
+[SABlurImageView](https://github.com/marty-suzuki/SABlurImageView)  
+[BKAsciiImage](https://github.com/bkoc/BKAsciiImage)  
+
+## <a name="video"> 视频 </a>
+### MobilePlayer
+一个强大完善且完全可定制的 iOS 媒体播放器。  
+[MobilePlayer](https://github.com/mobileplayer/mobileplayer-ios)  
+
+### Other
+[VIMVideoPlayer](https://github.com/vimeo/VIMVideoPlayer)    
+
+## <a name="pdf"> PDF </a>
+### Reader
+一个 iOS PDF 阅读器的核心。  
+[Reader](https://github.com/vfr/Reader)  
+
+### Other
+[UIView_2_PDF](https://github.com/RobertAPhillips/UIView_2_PDF)
+
+## <a name="sms"> SMS </a>
+### XMPPFramework 
+一个 iOS 和 Mac 上的 XMPP协议通讯框架。  
+[XMPPFramework](https://github.com/robbiehanson/XMPPFramework)  
+
+### Twilio
+驱动着现代的交流方式，构建下一代音频与 SMS 应用。  
+[Twilio](https://www.twilio.com)  
+
+### Plivo
+SMS API、音频 API 和 全球运营商。  
+[Plivo](https://www.plivo.com)  
+
+### Other
+[LayerKit](https://github.com/layerhq/releases-ios)
+
+## <a name="net"> 网络 </a>
+### AFNetworking
+一个得心应手的 iOS 和 OSX上的网络请求框架。  
+[AFNetworking](https://github.com/AFNetworking/AFNetworking)   
+
+### ASIHTTPRequest
+Objective-C 编写的 HTTP网络请求库。它是对 CFNetwork 易用的封装。支持 Mac OS X 和 iPhone。  
+[ASIHTTPRequest](https://github.com/pokeb/asi-http-request)  
+
+### Alamofire
+Alamofire 是一个 Swift 写的 HTTP 网络库，由AFNetworking 的作者编写。  
+[Alamofire](https://github.com/Alamofire/Alamofire)  
+
+### RestKit
+RestKit 是一个 iOS Objective-C 框架，是为了让和RESTful web 服务交互变的简单、快捷、有趣。  
+[RestKit](https://github.com/RestKit/RestKit)
+
+### Overcoat
+小巧但是很强大的库，让创建一个 REST 客户端简便和有趣。  
+[Overcoat](https://github.com/Overcoat/Overcoat)
+
+### CocoaAsyncSocket
+用于 Mac 和 iOS 的异步 socket网络库。  
+[CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)  
+
+### Siesta
+优雅的 RESTful资源抽象，将状态解藕。是基于回调或者代理的网络库的替代品。  
+[Siesta](https://bustoutsolutions.github.io/siesta/)  
+
+### NetworkEye 
+一个 iOS 网络调试库，可以显示 App 中的 HTTP请求和请求的相关信息。  
+[NetworkEye](https://github.com/coderyi/NetworkEye)  
+
+### Reachability.swift
+用 Swift 和闭包重新实现了苹果的Reachablility 框架。
+[Reachability.swift](https://github.com/ashleymills/Reachability.swift)  
+
+### Other
+[FSNetworking](https://github.com/foursquare/FSNetworking)  
+[RoadFrameWork](https://github.com/epam/road-ios-framework)  
+[MBNetwork](https://github.com/emaloney/MBToolbox/tree/master/Sources/Network)  
+[NSRails](https://github.com/dingbat/nsrails)  
+[NKMultipeer](https://github.com/nathankot/NKMultipeer)  
+[CDZPinger](https://github.com/cdzombak/CDZPinger)  
+[Transporter](https://github.com/nghialv/Transporter)
 
 ## <a name="ot"> Other </a>
 ### Voucher
