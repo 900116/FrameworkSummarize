@@ -6,6 +6,7 @@
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 |<a href="#audio">**音频**</a>|<a href="#anim">**动画**</a>|<a href="#video">**视频**</a>|<a href="#ble">**蓝牙**</a>|<a href="#pic">**图片**</a>|<a href="#json">**JSON**</a>|<a href="#autolayout">**Autolayout**</a>|<a href="#db">**数据库**</a>|<a href="#hud">**HUD**</a>|<a href="#net">**网络**</a>|
 |<a href="#url">**URLCache**</a>|<a href="#chart">**图表**</a>|<a href="#coredata">**CoreData**</a>|<a href="#loc">**位置**</a>|<a href="#ibeacon">**iBeacon**</a>|<a href="#event">**事件总线**</a>|<a href="#log">**Log**</a>|<a href="#map">**地图**</a>|<a href="#sms">**SMS**</a>|<a href="#pdf">**PDF**</a>|
+|<a href="#ntf">**推送通知**</a>|<a href="#psb">**PassBook**</a>|<a href="#auth">**权限**</a>|<a href="#text">**文本**</a>|<a href="#guide">**用户引导**</a>|
 |<a href="#ot">**Other**</a>|
 
 ## <a name="audio">音频</a>
@@ -14,7 +15,7 @@ App 到 App 的实时音频路由。
 [AudioBus](https://developer.audiob.us)
 
 ### AudioKit
-一个强大的音频合成，处理和分析的工具集。  
+一个强大的音频合成，处理和分析的工具集。[S]  
 [AudioKit](https://github.com/audiokit/AudioKit)
 
 ### EZAudio  
@@ -31,7 +32,7 @@ App 到 App 的实时音频路由。
 
 ### Other
 [StreamingKit](https://github.com/tumtumtum/StreamingKit)  
-[sound-fader-ios](https://github.com/evgenyneu/Cephalopod)  
+[sound-fader-ios](https://github.com/evgenyneu/Cephalopod)[S]  
 
 ## <a name="anim">动画</a>
 ### POP
@@ -51,7 +52,7 @@ iOS 动画集合。很简单，只需要添加流水动画。
 [DCAnimationKit](https://github.com/daltoniam/DCAnimationKit)
 
 ### Spring  
-一个简单的 Swift iOS 动画库。  
+一个简单的 Swift iOS 动画库。[S]    
 [Spring](https://github.com/MengTo/Spring)  
 
 ### Canvas  
@@ -59,7 +60,7 @@ iOS 动画集合。很简单，只需要添加流水动画。
 [Canvas](https://github.com/CanvasPod/Canvas)
 
 ### Fluent Cheetah
-便捷的 Swift 动画框架。  
+便捷的 Swift 动画框架。[S]    
 [Fluent](https://github.com/matthewcheok/Fluent)  
 [Cheetah](https://github.com/suguru/Cheetah)  
 
@@ -67,12 +68,20 @@ iOS 动画集合。很简单，只需要添加流水动画。
 针对可点击元素的动画（类似于 YoutubeMusic）  
 [RadialLayer](https://github.com/soheil/RadialLayer)  
 
+### JazzHands
+Jazz Hands 是一个简单的 UIKit关键帧动画框架。动画是可以使用手势、滚动视图、KVO 或者 ReactiveCocoa 来控制的。  
+[JazzHands](https://github.com/IFTTT/JazzHands)  
+
+### RazzleDazzle  
+简单的基于关键帧的 iOS 动画框架，由 Swift编写。最适合用于 App 的滚动介绍页面。[S]    
+[RazzleDazzle](https://github.com/IFTTT/RazzleDazzle)  
+
 ### Other
 [Awesome-iOS-Animation](https://github.com/jackymelb/awesome-ios-animation)  
 
 ## <a name="url"> URLCache </a>
 ### Awesome Cache
-让人喜爱的本地缓存  
+让人喜爱的本地缓存。[S]  
 [Awesome Cache](https://github.com/aschuch/AwesomeCache)
 
 ### SDURLCache 
@@ -80,12 +89,12 @@ URLCache 的子类，可以为 iPhone/iPad应用提供的本地磁盘缓存。
 [SDURLCache](https://github.com/steipete/SDURLCache)
 
 ### Other
-[mattress](https://github.com/buzzfeed/mattress)   
-[Carlos](https://github.com/WeltN24/Carlos)  
+[mattress](https://github.com/buzzfeed/mattress)[S]   
+[Carlos](https://github.com/WeltN24/Carlos)[S]  
 
 ## <a name="chart"> 图表 </a>
 ### ios-charts  
-一个强大的图表框架，[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)在iOS 上的移植。  
+一个强大的图表框架，[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)在iOS 上的移植。[S]  
 [ios-charts](https://github.com/danielgindi/Charts)  
 
 ### PNChart
@@ -141,11 +150,11 @@ ActiveRecord 的 Objective-C版本。
 [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)  
 
 ### QueryKit
-一个简洁的类型安全的 CoreData 查询语言  
+一个简洁的类型安全的 CoreData 查询语言[S]  
 [QueryKit](https://github.com/QueryKit/QueryKit)  
 
 ### CoreStore
-强大的 CoreData框架，解决了增量迁移、获取、观察等问题。  
+强大的 CoreData框架，解决了增量迁移、获取、观察等问题。[S]  
 [CoreStore](https://github.com/JohnEstropia/CoreStore)  
 
 ### Other
@@ -176,19 +185,20 @@ SQLite 的 Cocoa/Objective-C 封装。
 
 ### Other  
 [Akaibu-NSUserDefault](https://github.com/roytang121/Akaibu-NSUserDefaults)  
-[Prephirences](https://github.com/phimage/Prephirences)    
-[FCModel](https://github.com/marcoarment/FCModel)   
+[Prephirences](https://github.com/phimage/Prephirences)[S]    
+[FCModel](https://github.com/marcoarment/FCModel)  
+[Zephyr](https://github.com/ArtSabintsev/Zephyr)[S]  
 
 ## <a name="ble"> 蓝牙 </a>
 ### BluetoothKit  
-使用 BLE 在 iOS/OSX设备之间通讯的框架  
+使用 BLE 在 iOS/OSX设备之间通讯的框架[S]  
 [BluetoothKit](https://github.com/rhummelmose/BluetoothKit)  
 
 ### Other   
 [Discovery](https://github.com/omergul/Discovery)  
 [LGBluetooth](https://github.com/LGBluetooth/LGBluetooth)  
 [simple-share](https://github.com/lauraskelton/simple-share)  
-[PeerKit](https://github.com/jpsim/PeerKit)  
+[PeerKit](https://github.com/jpsim/PeerKit)[S]  
 
 ## <a name="loc"> 位置 </a>
 ### LocationKit
@@ -235,12 +245,12 @@ ProgressHUD 是一个轻量易用的 HUD。
 [M13ProgressSuite](https://github.com/Marxon13/M13ProgressSuite)   
 
 ### PKHUD  
-用 Swift 重新实现了 Apple 的原生 HUD，支持 iOS 8以上  
+用 Swift 重新实现了 Apple 的原生 HUD，支持 iOS 8以上。[S]  
 [PKHUD](https://github.com/pkluz/PKHUD)  
 
 ### Other  
-[JHProgressHUD](https://github.com/harikrishnant1991/JHProgressHUD)  
-[EZLoadingActivity](https://github.com/goktugyil/EZLoadingActivity)    
+[JHProgressHUD](https://github.com/harikrishnant1991/JHProgressHUD)[S]  
+[EZLoadingActivity](https://github.com/goktugyil/EZLoadingActivity)[S]    
 
 ## <a name="event">事件总线</a>
 ### PromiseKit
@@ -252,12 +262,12 @@ Bolts是一个试图使构建移动应用更简单的一个底层库集合。包
 [Bolts](https://github.com/BoltsFramework/Bolts-ObjC)  
 
 ### SwiftTask
-Swift 实现的 Promise + progress +pause + cancel + retry。   
+Swift 实现的 Promise + progress +pause + cancel + retry。[S]   
 [SwiftTask](https://github.com/ReactKit/SwiftTask)  
 
 ### Other  
-[SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus)  
-[caravel](https://github.com/coshx/caravel) 
+[SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus)[S]  
+[caravel](https://github.com/coshx/caravel)[S] 
 
 ## <a name="json"> JSON</a>
 ### JSONKit
@@ -281,28 +291,28 @@ Objective-C JSON 工具。
 [JSONModel](https://github.com/jsonmodel/jsonmodel)  
 
 ### SwiftyJSON
-使用 Swift 处理 JSON 数据的好方法。  
+使用 Swift 处理 JSON 数据的好方法。[S]  
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)  
 
 ### ObjectMapper
-在模型对象（包括 class 和 struct）和 JSON之间转换的 Swift 框架。  
+在模型对象（包括 class 和 struct）和 JSON之间转换的 Swift 框架。[S]  
 [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper) 
 
 ### JASON
-性能优秀操作便捷的 JSON 解析。  
+性能优秀操作便捷的 JSON 解析。[S]    
 [JASON](https://github.com/delba/JASON)
 
 ### Gloss
-一个 Swift 写的 JSON 解析库。  
+一个 Swift 写的 JSON 解析库。[S]  
 [Gloss](https://github.com/hkellaway/Gloss)
 
 ### Other
 [TouchJSON](https://github.com/TouchCode/TouchJSON)  
 [Groot](https://github.com/gonzalezreal/Groot)  
 [FastEasyMapping](https://github.com/Yalantis/FastEasyMapping)  
-[OCMapper](https://github.com/aryaxt/OCMapper)  
-[SwiftyJSONAccelerator](https://github.com/insanoid/SwiftyJSONAccelerator)  
-[Cereal](https://github.com/Weebly/Cereal)  
+[OCMapper](https://github.com/aryaxt/OCMapper)[S]  
+[SwiftyJSONAccelerator](https://github.com/insanoid/SwiftyJSONAccelerator)[S]  
+[Cereal](https://github.com/Weebly/Cereal)[S]  
 
 ## <a name="autolayout"> Autolayout </a>
 
@@ -311,7 +321,7 @@ Objective-C JSON 工具。
 [Masonry](https://github.com/SnapKit/Masonry) 
 
 ### SnapKit
-一个 iOS 和 OS X 的 Swift Autolayout领域专用语言（DSL）。  
+一个 iOS 和 OS X 的 Swift Autolayout领域专用语言（DSL）。[S]  
 [SnapKit](https://github.com/SnapKit/SnapKit) 
 
 ### FLKAutoLayout
@@ -323,18 +333,18 @@ Objective-C JSON 工具。
 [PureLayout](https://github.com/PureLayout/PureLayout)  
 
 ### Cartography
-一个 Swift 编写的声明式 Auto Layout领域专用语言（DSL）。  
+一个 Swift 编写的声明式 Auto Layout领域专用语言（DSL）。[S]  
 [Cartography](https://github.com/robb/Cartography)  
 
 ### Other  
 [ios_flexboxobjc](https://github.com/alexdrone/flexboxobjc_deprecated)  
 [Facade](https://github.com/mamaral/Facade)  
-[AutoLayoutPlus](https://github.com/ruipfcosta/AutoLayoutPlus)  
+[AutoLayoutPlus](https://github.com/ruipfcosta/AutoLayoutPlus)[S]  
 
 ## <a name="log"> Log </a>
 
 ### CleanroomLogger
-一个基于 Swift 可配置可扩展的日志API，简洁、轻量并且高效。  
+一个基于 Swift 可配置可扩展的日志API，简洁、轻量并且高效。[S]  
 [CleanroomLogger](https://github.com/emaloney/CleanroomLogger)  
 
 ### CocoaLumberjack
@@ -347,7 +357,7 @@ Objective-C JSON 工具。
 
 ### Other
 [Aardvark](https://github.com/square/Aardvark/)  
-[QorumLogs](https://github.com/goktugyil/QorumLogs)  
+[QorumLogs](https://github.com/goktugyil/QorumLogs)[S]  
 [BlockTypeDescription](https://github.com/conradev/BlockTypeDescription)  
 
 ## <a name="map">地图</a>
@@ -402,7 +412,7 @@ iOS 交互式图片浏览器。
 [SCRecorder](https://github.com/rFlex/SCRecorder)
 
 ### HanekeSwift
-一个 Swift 编写的 iOS平台的轻量级通用缓存框架，还有对图像的更多支持。  
+一个 Swift 编写的 iOS平台的轻量级通用缓存框架，还有对图像的更多支持。[S]  
 [HanekeSwift](https://github.com/Haneke/HanekeSwift)
 
 ### TOCropViewController
@@ -422,15 +432,15 @@ iOS 交互式图片浏览器。
 [YLGIFImage](https://github.com/liyong03/YLGIFImage)
 
 ### AlamofireImage
-一个为 Alamofire 制作的图像组件库。 
+一个为 Alamofire 制作的图像组件库。[S] 
 [AlamofireImage](https://github.com/Alamofire/AlamofireImage) 
 
 ### Nuke
-高级的图片管理框架。  
+高级的图片管理框架。[S]  
 [Nuke](https://github.com/kean/Nuke)
 
 ### FlagKit
-供 app 和 web 页面上使用的漂亮旗标。  
+供 app 和 web 页面上使用的漂亮旗标。[S]  
 [FlagKit](https://github.com/madebybowtie/FlagKit)
 
 ### YYWebImage
@@ -440,9 +450,9 @@ iOS 交互式图片浏览器。
 ### Other
 [uiimage-dsp](https://github.com/gdawg/uiimage-dsp)    
 [AsyncImageView](https://github.com/nicklockwood/AsyncImageView)  
-[MapleBacon](https://github.com/JanGorman/MapleBacon)  
+[MapleBacon](https://github.com/JanGorman/MapleBacon)[S]  
 [YXTMotionView](https://github.com/hanton/YXTMotionView)  
-[SABlurImageView](https://github.com/marty-suzuki/SABlurImageView)  
+[SABlurImageView](https://github.com/marty-suzuki/SABlurImageView)[S]  
 [BKAsciiImage](https://github.com/bkoc/BKAsciiImage)  
 
 ## <a name="video"> 视频 </a>
@@ -487,7 +497,7 @@ Objective-C 编写的 HTTP网络请求库。它是对 CFNetwork 易用的封装�
 [ASIHTTPRequest](https://github.com/pokeb/asi-http-request)  
 
 ### Alamofire
-Alamofire 是一个 Swift 写的 HTTP 网络库，由AFNetworking 的作者编写。  
+Alamofire 是一个 Swift 写的 HTTP 网络库，由AFNetworking 的作者编写。[S]  
 [Alamofire](https://github.com/Alamofire/Alamofire)  
 
 ### RestKit
@@ -511,7 +521,7 @@ RestKit 是一个 iOS Objective-C 框架，是为了让和RESTful web 服务交�
 [NetworkEye](https://github.com/coderyi/NetworkEye)  
 
 ### Reachability.swift
-用 Swift 和闭包重新实现了苹果的Reachablility 框架。
+用 Swift 和闭包重新实现了苹果的Reachablility 框架。[S]
 [Reachability.swift](https://github.com/ashleymills/Reachability.swift)  
 
 ### Other
@@ -519,9 +529,113 @@ RestKit 是一个 iOS Objective-C 框架，是为了让和RESTful web 服务交�
 [RoadFrameWork](https://github.com/epam/road-ios-framework)  
 [MBNetwork](https://github.com/emaloney/MBToolbox/tree/master/Sources/Network)  
 [NSRails](https://github.com/dingbat/nsrails)  
-[NKMultipeer](https://github.com/nathankot/NKMultipeer)  
+[NKMultipeer](https://github.com/nathankot/NKMultipeer)[S]  
 [CDZPinger](https://github.com/cdzombak/CDZPinger)  
-[Transporter](https://github.com/nghialv/Transporter)
+[Transporter](https://github.com/nghialv/Transporter)[S]
+
+## <a name="ntf"> 推送通知 </a>
+### APNS-Pusher
+苹果推送通知服务的调试器。  
+[Knuff](https://github.com/KnuffApp/Knuff)
+
+### Parse Push
+完全免费的后台推送通知，提供了创建分段，调度甚至 A/B测试的能力。  
+[Parse Push](https://parse.com/products/push)
+
+### PEM
+为推送服务器自动生成 profile。  
+[PEM](https://github.com/fastlane-old/pem)
+
+### Other
+[Orbiter](https://github.com/mattt/Orbiter)
+
+## <a name="psb"> PassBook </a>
+### Passkit
+设计、创建并验证 Passbook 的 Pass。  
+[Passkit](https://passkit.com)  
+
+### Other
+[passbook](https://github.com/frozon/passbook)  
+[dubai](https://github.com/nomad/dubai)
+
+
+## <a name="auth"> 权限 </a>
+### PermissionScope
+智能的 iOS 授权 UI 和 统一的API（支持位置、通知、照片、联系人、日历、照片、麦克风、BT、进度指示、HealthKit 和 CloudKit）。[S]  
+[PermissionScope](https://github.com/nickoneill/PermissionScope)
+
+### Other
+[Proposer](https://github.com/nixzhu/Proposer)[S]  
+[ICanHas](https://github.com/wircho/ICanHas)  
+[VWWPermissionKit](https://github.com/zakkhoyt/VWWPermissionKit)  
+[ISHPermissionKit](https://github.com/iosphere/ISHPermissionKit)  
+[JLPermissions](https://github.com/jlaws/JLPermissions)  
+
+## <a name="text"> 文本 </a>
+### Twitter Text Obj
+Twitter 的文本处理库的 Objective-C实现。  
+[twitter-text](https://github.com/twitter/twitter-text)
+
+### Nimbus
+Nimbus 是一个为高级 iOS 软件设计师制作工具包。  
+[Nimbus](http://nimbuskit.info)
+
+### MMMarkdown
+用于将 Markdown 转换为 HTML 的Objective-C 静态库。  
+[MMMarkdown](https://github.com/mdiep/MMMarkdown) 
+
+### DTCoreText
+利用 CoreText 使用 HTML 代码的方法。  
+[DTCoreText](https://github.com/Cocoanetics/DTCoreText) 
+
+### ios-fontawesome
+NSString + FontAwesome。   
+[ios-fontawesome](https://github.com/alexdrone/ios-fontawesome) 
+
+### RichEditorView
+RichEditorView是一个简单、模块化的富文本编辑器视图。[S]  
+[RichEditorView](https://github.com/cjwirth/RichEditorView) 
+
+### PhoneNumberKit
+用于解析，格式化和验证国际电话号码的 Swift框架，由谷歌的 libphonenumber 库支持。[S]  
+[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit) 
+
+### YYText
+iOS 上用于显示和编辑富文本的强大文本框架。  
+[YYText](https://github.com/ibireme/YYText) 
+
+### Other
+[nsstringemojize](https://github.com/diy/nsstringemojize)  
+[DTRichTextEditor](https://github.com/Cocoanetics/DTRichTextEditor)  
+[NBEmojiSearchView](https://github.com/neerajbaid/NBEmojiSearchView)  
+[Pluralize.swift](https://github.com/joshualat/Pluralize.swift)[S]  
+[Money](https://github.com/danthorpe/Money)[S]  
+
+## <a name="guide"> 用户引导 </a>
+### Onboard
+用一点点代码就可以创建一个漂亮的吸附效果的实践。  
+[Onboard](https://github.com/mamaral/Onboard)
+
+### EAIntroView
+高度可定制非侵入式的欢迎页面解决方案。  
+[EAIntroView](https://github.com/ealeksandrov/EAIntroView)
+
+### MYBlurIntroductionView
+在 MYIntroductionView上完善的，用于构建可定制的 app 介绍或者教程页面的框架。  
+[MYBlurIntroductionView](https://github.com/MatthewYork/MYBlurIntroductionView)
+
+### BWWalkthrough
+一个自定义 iOS App的功能漫游页面的框架。[S]  
+[BWWalkthrough](https://github.com/ariok/BWWalkthrough)
+
+### Instructions
+向你的 iOS项目中添加自定义的操作方式指导的简单办法。[S]  
+[Instructions](https://github.com/ephread/Instructions)  
+
+### Other
+[ICETutorial](https://github.com/icepat/ICETutorial)  
+[GHWalkThrough](https://github.com/GnosisHub/GHWalkThrough)  
+[SwiftyWalkthrough](https://github.com/ruipfcosta/SwiftyWalkthrough)[S]
 
 ## <a name="ot"> Other </a>
 ### Voucher
@@ -541,5 +655,5 @@ JSPatch 利用 Objective-C 运行时桥接了Objective-C 和 Javascript。你仅
 [MotionKit](https://github.com/MHaroonBaig/MotionKit)
 
 ### FileKit  
-Swift 实现的简单快捷的文件管理工具。  
+Swift 实现的简单快捷的文件管理工具。[S]  
 [FileKit](https://github.com/nvzqz/FileKit)  
